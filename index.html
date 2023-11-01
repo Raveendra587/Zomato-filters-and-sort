@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <svg>
+            <circle cx="52" cy="52" r="26" stroke="white" stroke-width="3" fill="white" />
+        </svg> 
+    </header>
+    <h2>e!</h2>
+    <nav>
+        <a class="login" href="#">Login</a>
+        <a class="createaccount" href="#">Create an account</a>
+    </nav>
+    <h1>Breakfast Places in Mumbai</h1>
+    <section>
+    <h3>Filters</h3>
+    <form>
+        <div class="dropdown">
+            <label class="heading" for="loc">Select Location</label>
+        <br>
+        <select name="location" id="loc">
+            <option value="" hidden disabled selected>Select Location</option>
+            <option value="Hyd">Hyderabad</option>
+            <option value="mum">Mumbai</option>
+            <option value="bang">Banglore</option>
+            <option value="chennai">Chennai</option>
+        </select>
+        </div>
+        <br>
+    <div class="CheckBOx">
+        <label class="heading" for="cuisine">Cuisine</label>
+        <br>
+        <input type="checkbox" name="northindian" id="NI">
+        <label class="heading1" for="NI">North Indian</label>
+        <br>
+        <input type="checkbox" name="southindian" id="SI">
+        <label class="heading1" for="SI">South Indian</label>
+        <br>
+        <input type="checkbox" name="chinese" id="chinese">
+        <label class="heading1" for="chinese">Chinese</label>
+        <br>
+        <input type="checkbox" name="fastfood" id="FF">
+        <label class="heading1" for="FF">Fast Food</label>
+        <br>
+        <input type="checkbox" name="streetfood" id="SF">
+        <label class="heading1" for="SF">Street Food</label>
+    </div>
+    <br>
+    <div class="Radio"> 
+        <label class="heading" for="radio">Cost For Two</label>
+        <br>
+        <input type="radio" name="cost" id="cost">
+        <label class="heading1" for="cost">Less than `500</label>
+        <br>
+        <input type="radio" name="cost" id="cost1">
+        <label class="heading1" for="cost1">`500 to `1000</label>
+        <br>
+        <input type="radio" name="cost" id="cost2">
+        <label class="heading1" for="cost2">`1000 to `1500</label>
+        <br>
+        <input type="radio" name="cost" id="cost3">
+        <label class="heading1" for="cost3">`1500 to `2000</label>
+        <br>
+        <input type="radio" name="cost" id="cost4">
+        <label class="heading1" for="cost4">`2000+</label>
+        <br>
+    </div>
+    <div class="sort">
+        <br>
+        <label class="heading" style="font-size: 17px;" for="sort"><strong>Sort</strong></label>
+        <br>
+        <input type="radio" name="sort" id="sort1">
+        <label class="heading1" for="sort1">Price low to high</label>
+        <br>
+        <input type="radio" name="sort" id="sort2">
+        <label class="heading1" for="sort2">Price high to low</label>
+    </div>
+    
+    </form>
+    <div class="container">
+        <img src="Assets/shutterstock_1154073754.png" alt="image">
+        <h2>The Big Chill Cakery</h2>
+        <h4>FORT</h4>
+        <p>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+        <hr>
+        <h5>CUISINES:</h5>
+        <h6>COST FOR TWO:</h6>
+        <div class="items">
+            <h6>Bakery</h6>
+            <p>₹700</p>
+        </div>
+    </div>
+    <div class="container1">
+        <img src="Assets/shutterstock_1154073754.png" alt="image">
+        <h2>The Bake Shop</h2>
+        <h4>FORT</h4>
+        <p>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+        <hr>
+        <h5>CUISINES:</h5>
+        <h6>COST FOR TWO:</h6>
+        <div class="items">
+            <h6>Bakery</h6>
+            <p>₹700</p>
+        </div>
+        <div class="button1">
+            <button type="button"><</button>
+            <button class="button2" type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">></button>
+        </div>
+    </div>
+</body>
+</html>
